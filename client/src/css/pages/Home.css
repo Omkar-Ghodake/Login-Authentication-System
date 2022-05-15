@@ -1,0 +1,14 @@
+.Home {
+	position: absolute;
+	top: 35vh;
+	width: 70vw;
+}
+
+.btn {
+	height: 2rem;
+	width: 6rem;
+}
+
+.fit-content {
+	width: fit-content !important;
+}

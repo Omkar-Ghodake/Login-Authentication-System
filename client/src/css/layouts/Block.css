@@ -1,0 +1,37 @@
+* {
+
+	font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+	height: 100vh;
+}
+
+.Block {
+	height: 50vh !important;
+}
+
+.Block .vertical {
+	width: 10vw;
+	height: 92%;
+	position: absolute;
+	margin: auto;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.vertical .text {
+	transform: rotate(-90deg);
+	position: absolute;
+	top: 40vh;
+	left: -14vw;
+	width: 80vh;
+	letter-spacing: 2px;
+}
+
+.Block .horizontal {
+	margin-left: 131.33px;
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
